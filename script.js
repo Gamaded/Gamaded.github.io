@@ -123,6 +123,7 @@ $(document).ready(function () {
   });
 
   function showMenu() {
+    let windowWidth = $(window).width();
     $('.menu-container').addClass('menu-is-showen');
     if (windowWidth <= 400) {
       $('body').addClass('fixed-body');
