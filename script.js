@@ -76,10 +76,6 @@ $(document).ready(function () {
     }
   });
 
-  // $('button').on('click', function() {
-  //   return false;
-  // });
-
   $('input[type="tel"]').inputmask({"mask": "+7 (999) 999-9999"})
 
   let paddingOffset = window.innerWidth - document.body.offsetWidth + 'px';
