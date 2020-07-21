@@ -1417,6 +1417,12 @@ a {
 	width: 37px;
 	height: 32px;
 	margin-right: 18px;
+	transition: transform 0.3s;
+}
+
+.social-block__item:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s;
 }
 
 .social-block__item:last-child {
